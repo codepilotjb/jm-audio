@@ -1,0 +1,67 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+}
+
+#clearview {
+	clear: both;
+}
+
+body{
+	color: #fff;
+	line-height: 1.5em;
+	font-size: 15px;
+	background-image: url("background1.jpg");
+}
+
+#container{
+	width: 370px;
+	height: 550px;
+	background-color: #333;
+	overflow: auto;
+	margin: 40px auto;
+	border-radius: 8px;
+	box-shadow: 0px 12px 10px -10px #335;
+	border-color: #33344A; 
+	border-style: solid;
+	border-top-width: 8px;
+	border-left-width: 10px;
+	border-right-width: 10px;
+	border-bottom-width: 8px;
+
+}
+
+#cover_image{
+	position: relative;
+	overflow: hidden;
+	width: 350px;
+}
+
+#cover_image .cover{
+	width: 100%;
+}
+
+#audio_info{
+	text-align: center;
+	margin: 10px;
+}
+
+#audio_info .caller_name{
+	font-weight: bold;
+	font-size: 18px;
+	color: red;
+}
+
+.audio-control audio{
+	
+	width: 80%;
+	
+	
+}
+
+
+
+
+
